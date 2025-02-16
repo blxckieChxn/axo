@@ -1,0 +1,4 @@
+[{"id":"1","creador":"1","nombre":"Clase IAW","descripcion":"Clase practica de PHP","ubicacion":"Suarez de Figueroa\/Zafra\/Badajoz\/Extremadura","categoria":"Formacion","fecha":"2025-02-26","hora":"13:20:00","duracion":"0.55","id_imagen":"0"},
+{"id":"4","creador":"1","nombre":"Concierto Gripe Kastua","descripcion":"Concierto tributo a Extremoduro ","ubicacion":"Plaza Espa\u00f1a","categoria":"Musica","fecha":"2025-02-06","hora":"20:00:00","duracion":"1.00","id_imagen":"1"},
+{"id":"10","creador":"1","nombre":"Presentacion de Axo","descripcion":"Presentando axo al mundo","ubicacion":"Zafra\/Extremadura","categoria":"A todos","fecha":"2025-02-15","hora":"12:00:00","duracion":"0.00","id_imagen":"1"}
+]

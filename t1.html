@@ -1,0 +1,10 @@
+<form id="eventForm" method="post" action="./php/formulario.php">
+    <input type="text" id="eventTitle" name= "nombreEvento" placeholder="Evento" required>
+    <textarea id="eventDescription" name="descripcion" placeholder="Descripción" required></textarea>
+    <input type="text" id="eventLocation" name="ubicacion" placeholder="Ubicación" required>
+    <input type="text" id="eventTarget" name="target" placeholder="A quién va dirigido" required>
+    <input type="time" id="eventTime" name="horaInicio" placeholder="Hora de inicio" required>
+    <input type="time" id="eventTime" name="horaFin" placeholder="Hora de fin" required> <!--No se si esta bien implementado con el js-->
+    <input type="submit" value="Guardar evento">
+    <!--<button type="submit">Guardar Evento</button>-->
+</form>

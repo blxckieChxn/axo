@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style_sesion.css">
+</head>
+<body>
+    <main>
+    <div class="contenedor">
+        <div class="sub_contenedor1">
+            <img src="../img/A2.png" width="200px" alt="Imagen empresarial">
+        
+        </div>
+
+        <div class="sub_contenedor2">
+            <form action="../php/inicio_sesion.php" method="post">
+                <h2>Iniciar Sesion</h2>
+                <div class="usuarios">
+                    <div class="campo">
+                        <img src="../img/icons8-usuario-50(1).png" alt="Icono de usuario">
+                        <input type="text" name="nombre" placeholder="Nombre de usuario">
+                    </div>
+                     <div class="campo">
+                        <img src="../img/icons8-nuevo-post-50(1).png" alt="Icono de usuario">
+                        <input type="text" name="correo" placeholder="Correo electronico">
+                    </div>
+                     <div class="campo">
+                        <img src="../img/icons8-contraseña-30.png" alt="Icono de usuario">
+                        <input type="password" name="contraseña" placeholder="Contraseña">
+                    </div>
+                </div>
+                <input class="boton" type="submit" value="Iniciar sesion">
+                <div class="linea-horizontal">
+                    <p>¿Eres nuevo? Registrate</p>
+                </div>
+                <a class="boton" href="../php/registro.php">Registrate</a>
+
+            </form>
+        </div>
+
+    </div>
+    </main>    
+</body>
+</html>

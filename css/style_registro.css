@@ -1,0 +1,166 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center; 
+            background-color: gray;
+        }
+      
+     
+        .contenedor{
+            display: flex;
+            height: 100vh;  
+        }
+        .sub_contenedor1, .sub_contenedor2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sub_contenedor1{
+            background-image: url(../img/fondopagweb.png);
+            width: 60%;
+            background-color: rgb(94, 115, 100);
+            animation: arrastre 0.5s;
+
+
+        }
+        @keyframes arrastre {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+       
+        .sub_contenedor2{
+            width: 40%;
+            background-color: rgb(31, 29, 29);
+            animation: arrastre 0.5s;
+            min-height:650px ;
+
+            
+        }
+        h1{
+            font-size: 30px;
+        }
+        h3{
+            color: white;
+        }
+        .boton{
+            padding: 20px 50px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: ease 0.5s;
+            font-size: 17px;
+            cursor: pointer;
+         }
+         .boton:hover{
+            background: rgb(158, 253, 158);
+            box-shadow: 0 0 0 2em transparent;
+            animation: pulso 0.5s;
+         }
+         @keyframes pulso{
+            50%{
+                box-shadow: 0 0 0 0 rgb(115, 236, 115);
+            }
+         }
+
+         
+        h2{
+            color: white;
+            
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            flex-direction: column;
+        }
+        .usuarios{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .usuarios input{
+            padding: 20px;
+            width: 100%;
+            outline: none;
+            background: none;
+            color: white;
+            border: none;
+            border-bottom: 0px solid transparent; 
+            transition: 1s ease;  
+
+        }
+        
+        .usuarios input:hover {
+            border-bottom: 2px solid rgb(255, 255, 255); 
+        }
+        .campo {
+            display: flex;
+            align-items: center;
+            gap: 10px; 
+            width: 100%;
+        }
+        .campo img {
+            width: 30px; 
+        }   
+         .linea-horizontal{
+            color: white;
+            position: relative;
+        }
+        .linea-horizontal:after{
+            position: absolute;
+            content: '';
+            top: 25px;
+            left: 10px;
+            width: 20%;
+            background-color: white;
+            height: 1px;
+        }
+        .linea-horizontal:before{
+            position: absolute;
+            content: '';
+            top: 25px;
+            right: 10px;
+            width: 20%;
+            background-color: white;
+            height: 1px;
+        }
+
+        @media (max-width: 1172px) {
+           
+           .sub_contenedor1{
+           width: 50%;
+           background-color: rgb(94, 115, 100);
+           animation: arrastre 0.5s;
+           min-height:650px ;
+        }
+           }
+           .sub_contenedor2{
+              width:50% ; 
+              
+           }
+           
+        @media (max-width: 888px) {
+            .contenedor{
+                flex-direction: column;
+            }
+            .sub_contenedor1{
+                width: 100%;
+                border-radius: 5px;
+                height: 100%;
+                min-height:500px ;
+
+
+            }
+            .sub_contenedor2{
+                width: 100%;
+                height: 100%;
+            }
+        }
